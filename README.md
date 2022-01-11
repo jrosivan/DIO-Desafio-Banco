@@ -10,3 +10,9 @@ Implementar um Aplicativo Bancário, com funcionalidades de:
 * Transferências;
 * Consulta de Saldo;
 * Extratos
+
+
+---------
+TO-DO:
+1 - Menu;
+2 - Alterar Classes;
