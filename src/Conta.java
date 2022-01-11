@@ -40,7 +40,9 @@ public abstract class Conta implements IConta {
         destino.depositar(valor);
     }
 
-    protected void imprimirSaldo() {
+    @Override
+    public void mostrarSaldo() {
+        System.out.println("--- Extrato Conta Corrente ---");
         System.out.println(String.format("Cliente..: %s", this.cliente.getNome()));
         System.out.println(String.format("Agencia..: %d", this.agencia));
         System.out.println(String.format("Conta CP.: %d", this.numero));
